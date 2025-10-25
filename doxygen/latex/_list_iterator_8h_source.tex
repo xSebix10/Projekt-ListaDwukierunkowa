@@ -1,0 +1,46 @@
+\doxysection{List\+Iterator.\+h}
+\hypertarget{_list_iterator_8h_source}{}\label{_list_iterator_8h_source}\index{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/ListIterator.h@{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/ListIterator.h}}
+\mbox{\hyperlink{_list_iterator_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ LISTITERATOR\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ LISTITERATOR\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_i_list_iterator_8h}{IListIterator.h}}"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_node_8h}{Node.h}}"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <stdexcept>}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{template}<\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00015\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_list_iterator_a539fa836244fb38dcd1d9822d7e873e5}{ListIterator}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_i_list_iterator}{IListIterator}}<T>\ \{}
+\DoxyCodeLine{00016\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00017\ \ \ \ \ \mbox{\hyperlink{struct_node}{Node<T>}}*\ current;\ }
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{class_list_iterator_a539fa836244fb38dcd1d9822d7e873e5}{ListIterator}}(\mbox{\hyperlink{struct_node}{Node<T>}}*\ start)\ :\ current(start)\ \{\}}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_list_iterator_a58963dad64d804cda256ba1bf5cdf1b5}{has\_next}}()\textcolor{keyword}{\ const\ override\ }\{\ \textcolor{keywordflow}{return}\ current\ \&\&\ current-\/>next;\ \}}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_list_iterator_ac61f527f5ebc01b2fb1ada1881ca075f}{has\_prev}}()\textcolor{keyword}{\ const\ override\ }\{\ \textcolor{keywordflow}{return}\ current\ \&\&\ current-\/>prev;\ \}}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_list_iterator_a9875f3dcba47a7169e5690fe28a6b02f}{next}}()\textcolor{keyword}{\ override\ }\{}
+\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!current)\ \textcolor{keywordflow}{throw}\ std::out\_of\_range(\textcolor{stringliteral}{"{}Iterator:\ brak\ elementu"{}});}
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!current-\/>next)\ \textcolor{keywordflow}{throw}\ std::out\_of\_range(\textcolor{stringliteral}{"{}Iterator:\ brak\ kolejnego\ elementu"{}});}
+\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ current\ =\ current-\/>next;}
+\DoxyCodeLine{00037\ \ \ \ \ \}}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_list_iterator_ae483c28e64983cd9646e2cf1f7e55a93}{prev}}()\textcolor{keyword}{\ override\ }\{}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!current)\ \textcolor{keywordflow}{throw}\ std::out\_of\_range(\textcolor{stringliteral}{"{}Iterator:\ brak\ elementu"{}});}
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!current-\/>prev)\ \textcolor{keywordflow}{throw}\ std::out\_of\_range(\textcolor{stringliteral}{"{}Iterator:\ brak\ poprzedniego\ elementu"{}});}
+\DoxyCodeLine{00043\ \ \ \ \ \ \ \ \ current\ =\ current-\/>prev;}
+\DoxyCodeLine{00044\ \ \ \ \ \}}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00047\ \ \ \ \ T\&\ \mbox{\hyperlink{class_list_iterator_ae4a43ab130966796b171d57352034a17}{value}}()\textcolor{keyword}{\ override\ }\{}
+\DoxyCodeLine{00048\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (!current)\ \textcolor{keywordflow}{throw}\ std::out\_of\_range(\textcolor{stringliteral}{"{}Iterator:\ brak\ elementu"{}});}
+\DoxyCodeLine{00049\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ current-\/>data;}
+\DoxyCodeLine{00050\ \ \ \ \ \}}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00053\ \ \ \ \ \mbox{\hyperlink{struct_node}{Node<T>}}*\ \mbox{\hyperlink{class_list_iterator_aff975b437e76c9d29c6123a194018328}{get\_node}}()\textcolor{keyword}{\ const\ }\{\ \textcolor{keywordflow}{return}\ current;\ \}}
+\DoxyCodeLine{00054\ \};}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00056\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ LISTITERATOR\_H}}
+
+\end{DoxyCode}

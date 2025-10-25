@@ -1,0 +1,100 @@
+\indexentry{redme@{redme}|hyperpage}{1}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{11}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!DoublyLinkedList@{DoublyLinkedList}|hyperpage}{12}
+\indexentry{DoublyLinkedList@{DoublyLinkedList}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{12}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!````~DoublyLinkedList@{\texorpdfstring{$\sim$}{\string~}DoublyLinkedList}|hyperpage}{12}
+\indexentry{````~DoublyLinkedList@{\texorpdfstring{$\sim$}{\string~}DoublyLinkedList}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{12}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!begin\_iterator@{begin\_iterator}|hyperpage}{12}
+\indexentry{begin\_iterator@{begin\_iterator}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{12}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!clear@{clear}|hyperpage}{12}
+\indexentry{clear@{clear}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{12}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!end\_iterator@{end\_iterator}|hyperpage}{12}
+\indexentry{end\_iterator@{end\_iterator}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{12}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!insert\_at@{insert\_at}|hyperpage}{12}
+\indexentry{insert\_at@{insert\_at}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{12}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!pop\_back@{pop\_back}|hyperpage}{12}
+\indexentry{pop\_back@{pop\_back}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{12}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!pop\_front@{pop\_front}|hyperpage}{13}
+\indexentry{pop\_front@{pop\_front}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{13}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!print\_backward@{print\_backward}|hyperpage}{13}
+\indexentry{print\_backward@{print\_backward}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{13}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!print\_forward@{print\_forward}|hyperpage}{13}
+\indexentry{print\_forward@{print\_forward}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{13}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!push\_back@{push\_back}|hyperpage}{13}
+\indexentry{push\_back@{push\_back}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{13}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!push\_front@{push\_front}|hyperpage}{13}
+\indexentry{push\_front@{push\_front}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{13}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!remove\_at@{remove\_at}|hyperpage}{14}
+\indexentry{remove\_at@{remove\_at}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{14}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!size@{size}|hyperpage}{14}
+\indexentry{size@{size}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{14}
+\indexentry{IList$<$ T $>$@{IList$<$ T $>$}|hyperpage}{14}
+\indexentry{IList$<$ T $>$@{IList$<$ T $>$}!````~IList@{\texorpdfstring{$\sim$}{\string~}IList}|hyperpage}{15}
+\indexentry{````~IList@{\texorpdfstring{$\sim$}{\string~}IList}!IList$<$ T $>$@{IList$<$ T $>$}|hyperpage}{15}
+\indexentry{IList$<$ T $>$@{IList$<$ T $>$}!clear@{clear}|hyperpage}{15}
+\indexentry{clear@{clear}!IList$<$ T $>$@{IList$<$ T $>$}|hyperpage}{15}
+\indexentry{IList$<$ T $>$@{IList$<$ T $>$}!insert\_at@{insert\_at}|hyperpage}{15}
+\indexentry{insert\_at@{insert\_at}!IList$<$ T $>$@{IList$<$ T $>$}|hyperpage}{15}
+\indexentry{IList$<$ T $>$@{IList$<$ T $>$}!pop\_back@{pop\_back}|hyperpage}{15}
+\indexentry{pop\_back@{pop\_back}!IList$<$ T $>$@{IList$<$ T $>$}|hyperpage}{15}
+\indexentry{IList$<$ T $>$@{IList$<$ T $>$}!pop\_front@{pop\_front}|hyperpage}{15}
+\indexentry{pop\_front@{pop\_front}!IList$<$ T $>$@{IList$<$ T $>$}|hyperpage}{15}
+\indexentry{IList$<$ T $>$@{IList$<$ T $>$}!print\_backward@{print\_backward}|hyperpage}{15}
+\indexentry{print\_backward@{print\_backward}!IList$<$ T $>$@{IList$<$ T $>$}|hyperpage}{15}
+\indexentry{IList$<$ T $>$@{IList$<$ T $>$}!print\_forward@{print\_forward}|hyperpage}{16}
+\indexentry{print\_forward@{print\_forward}!IList$<$ T $>$@{IList$<$ T $>$}|hyperpage}{16}
+\indexentry{IList$<$ T $>$@{IList$<$ T $>$}!push\_back@{push\_back}|hyperpage}{16}
+\indexentry{push\_back@{push\_back}!IList$<$ T $>$@{IList$<$ T $>$}|hyperpage}{16}
+\indexentry{IList$<$ T $>$@{IList$<$ T $>$}!push\_front@{push\_front}|hyperpage}{16}
+\indexentry{push\_front@{push\_front}!IList$<$ T $>$@{IList$<$ T $>$}|hyperpage}{16}
+\indexentry{IList$<$ T $>$@{IList$<$ T $>$}!remove\_at@{remove\_at}|hyperpage}{16}
+\indexentry{remove\_at@{remove\_at}!IList$<$ T $>$@{IList$<$ T $>$}|hyperpage}{16}
+\indexentry{IListIterator$<$ T $>$@{IListIterator$<$ T $>$}|hyperpage}{17}
+\indexentry{IListIterator$<$ T $>$@{IListIterator$<$ T $>$}!````~IListIterator@{\texorpdfstring{$\sim$}{\string~}IListIterator}|hyperpage}{17}
+\indexentry{````~IListIterator@{\texorpdfstring{$\sim$}{\string~}IListIterator}!IListIterator$<$ T $>$@{IListIterator$<$ T $>$}|hyperpage}{17}
+\indexentry{IListIterator$<$ T $>$@{IListIterator$<$ T $>$}!has\_next@{has\_next}|hyperpage}{17}
+\indexentry{has\_next@{has\_next}!IListIterator$<$ T $>$@{IListIterator$<$ T $>$}|hyperpage}{17}
+\indexentry{IListIterator$<$ T $>$@{IListIterator$<$ T $>$}!has\_prev@{has\_prev}|hyperpage}{17}
+\indexentry{has\_prev@{has\_prev}!IListIterator$<$ T $>$@{IListIterator$<$ T $>$}|hyperpage}{17}
+\indexentry{IListIterator$<$ T $>$@{IListIterator$<$ T $>$}!next@{next}|hyperpage}{17}
+\indexentry{next@{next}!IListIterator$<$ T $>$@{IListIterator$<$ T $>$}|hyperpage}{17}
+\indexentry{IListIterator$<$ T $>$@{IListIterator$<$ T $>$}!prev@{prev}|hyperpage}{18}
+\indexentry{prev@{prev}!IListIterator$<$ T $>$@{IListIterator$<$ T $>$}|hyperpage}{18}
+\indexentry{IListIterator$<$ T $>$@{IListIterator$<$ T $>$}!value@{value}|hyperpage}{18}
+\indexentry{value@{value}!IListIterator$<$ T $>$@{IListIterator$<$ T $>$}|hyperpage}{18}
+\indexentry{ListFactory@{ListFactory}|hyperpage}{18}
+\indexentry{ListFactory@{ListFactory}!create@{create}|hyperpage}{18}
+\indexentry{create@{create}!ListFactory@{ListFactory}|hyperpage}{18}
+\indexentry{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}|hyperpage}{19}
+\indexentry{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}!ListIterator@{ListIterator}|hyperpage}{19}
+\indexentry{ListIterator@{ListIterator}!ListIterator$<$ T $>$@{ListIterator$<$ T $>$}|hyperpage}{19}
+\indexentry{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}!get\_node@{get\_node}|hyperpage}{20}
+\indexentry{get\_node@{get\_node}!ListIterator$<$ T $>$@{ListIterator$<$ T $>$}|hyperpage}{20}
+\indexentry{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}!has\_next@{has\_next}|hyperpage}{20}
+\indexentry{has\_next@{has\_next}!ListIterator$<$ T $>$@{ListIterator$<$ T $>$}|hyperpage}{20}
+\indexentry{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}!has\_prev@{has\_prev}|hyperpage}{20}
+\indexentry{has\_prev@{has\_prev}!ListIterator$<$ T $>$@{ListIterator$<$ T $>$}|hyperpage}{20}
+\indexentry{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}!next@{next}|hyperpage}{20}
+\indexentry{next@{next}!ListIterator$<$ T $>$@{ListIterator$<$ T $>$}|hyperpage}{20}
+\indexentry{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}!prev@{prev}|hyperpage}{20}
+\indexentry{prev@{prev}!ListIterator$<$ T $>$@{ListIterator$<$ T $>$}|hyperpage}{20}
+\indexentry{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}!value@{value}|hyperpage}{20}
+\indexentry{value@{value}!ListIterator$<$ T $>$@{ListIterator$<$ T $>$}|hyperpage}{20}
+\indexentry{Node$<$ T $>$@{Node$<$ T $>$}|hyperpage}{21}
+\indexentry{Node$<$ T $>$@{Node$<$ T $>$}!Node@{Node}|hyperpage}{21}
+\indexentry{Node@{Node}!Node$<$ T $>$@{Node$<$ T $>$}|hyperpage}{21}
+\indexentry{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/DoublyLinkedList.h@{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/DoublyLinkedList.h}|hyperpage}{23}
+\indexentry{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/DoublyLinkedList.h@{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/DoublyLinkedList.h}|hyperpage}{23}
+\indexentry{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/IList.h@{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/IList.h}|hyperpage}{24}
+\indexentry{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/IList.h@{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/IList.h}|hyperpage}{25}
+\indexentry{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/IListIterator.h@{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/IListIterator.h}|hyperpage}{25}
+\indexentry{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/IListIterator.h@{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/IListIterator.h}|hyperpage}{25}
+\indexentry{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/ListFactory.h@{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/ListFactory.h}|hyperpage}{26}
+\indexentry{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/ListFactory.h@{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/ListFactory.h}|hyperpage}{26}
+\indexentry{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/ListIterator.h@{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/ListIterator.h}|hyperpage}{26}
+\indexentry{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/ListIterator.h@{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/ListIterator.h}|hyperpage}{27}
+\indexentry{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/main.cpp@{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/main.cpp}|hyperpage}{27}
+\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{28}
+\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{28}
+\indexentry{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/Node.h@{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/Node.h}|hyperpage}{28}
+\indexentry{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/Node.h@{C:/Users/Sebastian/Desktop/ListaDwukierunkowa/Node.h}|hyperpage}{29}

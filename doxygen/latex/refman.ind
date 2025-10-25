@@ -1,0 +1,176 @@
+\begin{theindex}
+
+  \item {\texorpdfstring{$\sim$}{\string~}DoublyLinkedList}
+    \subitem {DoublyLinkedList$<$ T $>$}, \hyperpage{12}
+  \item {\texorpdfstring{$\sim$}{\string~}IList}
+    \subitem {IList$<$ T $>$}, \hyperpage{15}
+  \item {\texorpdfstring{$\sim$}{\string~}IListIterator}
+    \subitem {IListIterator$<$ T $>$}, \hyperpage{17}
+
+  \indexspace
+
+  \item {begin\_iterator}
+    \subitem {DoublyLinkedList$<$ T $>$}, \hyperpage{12}
+
+  \indexspace
+
+  \item {C:/Users/Sebastian/Desktop/ListaDwukierunkowa/DoublyLinkedList.h}, 
+		\hyperpage{23}
+  \item {C:/Users/Sebastian/Desktop/ListaDwukierunkowa/IList.h}, 
+		\hyperpage{24, 25}
+  \item {C:/Users/Sebastian/Desktop/ListaDwukierunkowa/IListIterator.h}, 
+		\hyperpage{25}
+  \item {C:/Users/Sebastian/Desktop/ListaDwukierunkowa/ListFactory.h}, 
+		\hyperpage{26}
+  \item {C:/Users/Sebastian/Desktop/ListaDwukierunkowa/ListIterator.h}, 
+		\hyperpage{26, 27}
+  \item {C:/Users/Sebastian/Desktop/ListaDwukierunkowa/main.cpp}, 
+		\hyperpage{27}
+  \item {C:/Users/Sebastian/Desktop/ListaDwukierunkowa/Node.h}, 
+		\hyperpage{28, 29}
+  \item {clear}
+    \subitem {DoublyLinkedList$<$ T $>$}, \hyperpage{12}
+    \subitem {IList$<$ T $>$}, \hyperpage{15}
+  \item {create}
+    \subitem {ListFactory}, \hyperpage{18}
+
+  \indexspace
+
+  \item {DoublyLinkedList}
+    \subitem {DoublyLinkedList$<$ T $>$}, \hyperpage{12}
+  \item {DoublyLinkedList$<$ T $>$}, \hyperpage{11}
+    \subitem {\texorpdfstring{$\sim$}{\string~}DoublyLinkedList}, 
+		\hyperpage{12}
+    \subitem {begin\_iterator}, \hyperpage{12}
+    \subitem {clear}, \hyperpage{12}
+    \subitem {DoublyLinkedList}, \hyperpage{12}
+    \subitem {end\_iterator}, \hyperpage{12}
+    \subitem {insert\_at}, \hyperpage{12}
+    \subitem {pop\_back}, \hyperpage{12}
+    \subitem {pop\_front}, \hyperpage{13}
+    \subitem {print\_backward}, \hyperpage{13}
+    \subitem {print\_forward}, \hyperpage{13}
+    \subitem {push\_back}, \hyperpage{13}
+    \subitem {push\_front}, \hyperpage{13}
+    \subitem {remove\_at}, \hyperpage{14}
+    \subitem {size}, \hyperpage{14}
+
+  \indexspace
+
+  \item {end\_iterator}
+    \subitem {DoublyLinkedList$<$ T $>$}, \hyperpage{12}
+
+  \indexspace
+
+  \item {get\_node}
+    \subitem {ListIterator$<$ T $>$}, \hyperpage{20}
+
+  \indexspace
+
+  \item {has\_next}
+    \subitem {IListIterator$<$ T $>$}, \hyperpage{17}
+    \subitem {ListIterator$<$ T $>$}, \hyperpage{20}
+  \item {has\_prev}
+    \subitem {IListIterator$<$ T $>$}, \hyperpage{17}
+    \subitem {ListIterator$<$ T $>$}, \hyperpage{20}
+
+  \indexspace
+
+  \item {IList$<$ T $>$}, \hyperpage{14}
+    \subitem {\texorpdfstring{$\sim$}{\string~}IList}, \hyperpage{15}
+    \subitem {clear}, \hyperpage{15}
+    \subitem {insert\_at}, \hyperpage{15}
+    \subitem {pop\_back}, \hyperpage{15}
+    \subitem {pop\_front}, \hyperpage{15}
+    \subitem {print\_backward}, \hyperpage{15}
+    \subitem {print\_forward}, \hyperpage{16}
+    \subitem {push\_back}, \hyperpage{16}
+    \subitem {push\_front}, \hyperpage{16}
+    \subitem {remove\_at}, \hyperpage{16}
+  \item {IListIterator$<$ T $>$}, \hyperpage{17}
+    \subitem {\texorpdfstring{$\sim$}{\string~}IListIterator}, 
+		\hyperpage{17}
+    \subitem {has\_next}, \hyperpage{17}
+    \subitem {has\_prev}, \hyperpage{17}
+    \subitem {next}, \hyperpage{17}
+    \subitem {prev}, \hyperpage{18}
+    \subitem {value}, \hyperpage{18}
+  \item {insert\_at}
+    \subitem {DoublyLinkedList$<$ T $>$}, \hyperpage{12}
+    \subitem {IList$<$ T $>$}, \hyperpage{15}
+
+  \indexspace
+
+  \item {ListFactory}, \hyperpage{18}
+    \subitem {create}, \hyperpage{18}
+  \item {ListIterator}
+    \subitem {ListIterator$<$ T $>$}, \hyperpage{19}
+  \item {ListIterator$<$ T $>$}, \hyperpage{19}
+    \subitem {get\_node}, \hyperpage{20}
+    \subitem {has\_next}, \hyperpage{20}
+    \subitem {has\_prev}, \hyperpage{20}
+    \subitem {ListIterator}, \hyperpage{19}
+    \subitem {next}, \hyperpage{20}
+    \subitem {prev}, \hyperpage{20}
+    \subitem {value}, \hyperpage{20}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{28}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{28}
+
+  \indexspace
+
+  \item {next}
+    \subitem {IListIterator$<$ T $>$}, \hyperpage{17}
+    \subitem {ListIterator$<$ T $>$}, \hyperpage{20}
+  \item {Node}
+    \subitem {Node$<$ T $>$}, \hyperpage{21}
+  \item {Node$<$ T $>$}, \hyperpage{21}
+    \subitem {Node}, \hyperpage{21}
+
+  \indexspace
+
+  \item {pop\_back}
+    \subitem {DoublyLinkedList$<$ T $>$}, \hyperpage{12}
+    \subitem {IList$<$ T $>$}, \hyperpage{15}
+  \item {pop\_front}
+    \subitem {DoublyLinkedList$<$ T $>$}, \hyperpage{13}
+    \subitem {IList$<$ T $>$}, \hyperpage{15}
+  \item {prev}
+    \subitem {IListIterator$<$ T $>$}, \hyperpage{18}
+    \subitem {ListIterator$<$ T $>$}, \hyperpage{20}
+  \item {print\_backward}
+    \subitem {DoublyLinkedList$<$ T $>$}, \hyperpage{13}
+    \subitem {IList$<$ T $>$}, \hyperpage{15}
+  \item {print\_forward}
+    \subitem {DoublyLinkedList$<$ T $>$}, \hyperpage{13}
+    \subitem {IList$<$ T $>$}, \hyperpage{16}
+  \item {push\_back}
+    \subitem {DoublyLinkedList$<$ T $>$}, \hyperpage{13}
+    \subitem {IList$<$ T $>$}, \hyperpage{16}
+  \item {push\_front}
+    \subitem {DoublyLinkedList$<$ T $>$}, \hyperpage{13}
+    \subitem {IList$<$ T $>$}, \hyperpage{16}
+
+  \indexspace
+
+  \item {redme}, \hyperpage{1}
+  \item {remove\_at}
+    \subitem {DoublyLinkedList$<$ T $>$}, \hyperpage{14}
+    \subitem {IList$<$ T $>$}, \hyperpage{16}
+
+  \indexspace
+
+  \item {size}
+    \subitem {DoublyLinkedList$<$ T $>$}, \hyperpage{14}
+
+  \indexspace
+
+  \item {value}
+    \subitem {IListIterator$<$ T $>$}, \hyperpage{18}
+    \subitem {ListIterator$<$ T $>$}, \hyperpage{20}
+
+\end{theindex}

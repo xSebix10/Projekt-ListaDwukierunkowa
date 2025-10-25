@@ -1,0 +1,174 @@
+\chapter{redme }
+\hypertarget{md__c_1_2_users_2_sebastian_2_desktop_2_lista_dwukierunkowa_2redme}{}\label{md__c_1_2_users_2_sebastian_2_desktop_2_lista_dwukierunkowa_2redme}\index{redme@{redme}}
+// Po\+VRay 3.\+7 Scene File "{} ... .\+pov"{} // author\+: Rafa³ Curzyd³o // date\+: 12-\/10-\/2025 //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- \#version 3.\+7; global\+\_\+settings\{ assumed\+\_\+gamma 1.\+0 \} \#default\{ finish\{ ambient 0.\+1 diffuse 0.\+9 \}\} //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- \#include "{}colors.\+inc"{} \#include "{}textures.\+inc"{} \#include "{}glass.\+inc"{} \#include "{}metals.\+inc"{} \#include "{}golds.\+inc"{} \#include "{}stones.\+inc"{} \#include "{}woods.\+inc"{} \#include "{}shapes.\+inc"{} \#include "{}shapes2.\+inc"{} \#include "{}functions.\+inc"{} \#include "{}math.\+inc"{} \#include "{}transforms.\+inc"{} //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- \#declare Camera\+\_\+0 = camera \{/\texorpdfstring{$\ast$}{*}ultra\+\_\+wide\+\_\+angle\texorpdfstring{$\ast$}{*}/ angle 15 // front view location \texorpdfstring{$<$}{<}0.\+0 , 1.\+0 ,-\/40.\+0\texorpdfstring{$>$}{>} right x\texorpdfstring{$\ast$}{*}image\+\_\+width/image\+\_\+height look\+\_\+at \texorpdfstring{$<$}{<}0.\+0 , 1.\+0 , 0.\+0\texorpdfstring{$>$}{>}\} \#declare Camera\+\_\+1 = camera \{/\texorpdfstring{$\ast$}{*}ultra\+\_\+wide\+\_\+angle\texorpdfstring{$\ast$}{*}/ angle 14 // diagonal view location \texorpdfstring{$<$}{<}220.\+0 , 215.\+0 ,-\/220.\+0\texorpdfstring{$>$}{>} right x\texorpdfstring{$\ast$}{*}image\+\_\+width/image\+\_\+height look\+\_\+at \texorpdfstring{$<$}{<}0.\+0 , 1 , 0.\+0\texorpdfstring{$>$}{>}\} \#declare Camera\+\_\+2 = camera \{/\texorpdfstring{$\ast$}{*}ultra\+\_\+wide\+\_\+angle\texorpdfstring{$\ast$}{*}/ angle 90 //right side view location \texorpdfstring{$<$}{<}3.\+0 , 1.\+0 , 0.\+0\texorpdfstring{$>$}{>} right x\texorpdfstring{$\ast$}{*}image\+\_\+width/image\+\_\+height look\+\_\+at \texorpdfstring{$<$}{<}0.\+0 , 1.\+0 , 0.\+0\texorpdfstring{$>$}{>}\} \#declare Camera\+\_\+3 = camera \{/\texorpdfstring{$\ast$}{*}ultra\+\_\+wide\+\_\+angle\texorpdfstring{$\ast$}{*}/ angle 90 // top view location \texorpdfstring{$<$}{<}0.\+0 , 3.\+0 ,-\/0.\+001\texorpdfstring{$>$}{>} right x\texorpdfstring{$\ast$}{*}image\+\_\+width/image\+\_\+height look\+\_\+at \texorpdfstring{$<$}{<}0.\+0 , 1.\+0 , 0.\+0\texorpdfstring{$>$}{>}\} camera\{Camera\+\_\+1\} //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- // sun -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- light\+\_\+source\{\texorpdfstring{$<$}{<}1500,2500,-\/2500\texorpdfstring{$>$}{>} color White\} // sky -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- sky\+\_\+sphere\{ pigment\{ gradient \texorpdfstring{$<$}{<}0,1,0\texorpdfstring{$>$}{>} color\+\_\+map\{ \mbox{[}0 color rgb$<$1,1,1$>$ \mbox{]}//\+White \mbox{[}0.\+4 color rgb$<$0.\+14,0.\+14,0.\+56$>$\mbox{]}//\texorpdfstring{$\sim$}{\string~}\+Navy \mbox{[}0.\+6 color rgb$<$0.\+14,0.\+14,0.\+56$>$\mbox{]}//\texorpdfstring{$\sim$}{\string~}\+Navy \mbox{[}1.\+0 color rgb$<$1,1,1$>$ \mbox{]}//\+White \} scale 2 \} \} // end of sky\+\_\+sphere //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---
+
+//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- the Axes -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- \#macro Axis\+\_\+( Axis\+Len, Dark\+\_\+\+Texture,\+Light\+\_\+\+Texture) union\{ cylinder \{ \texorpdfstring{$<$}{<}0,-\/Axis\+Len,0\texorpdfstring{$>$}{>},\texorpdfstring{$<$}{<}0,Axis\+Len,0\texorpdfstring{$>$}{>},0.\+05 texture\{checker texture\{Dark\+\_\+\+Texture \} texture\{Light\+\_\+\+Texture\} translate$<$0.\+1,0,0.\+1$>$\} \} cone\{\texorpdfstring{$<$}{<}0,Axis\+Len,0\texorpdfstring{$>$}{>},0.\+2,\texorpdfstring{$<$}{<}0,Axis\+Len+0.7,0\texorpdfstring{$>$}{>},0 texture\{Dark\+\_\+\+Texture\} \} \} // end of union ~\newline
+ \#end // of macro "{}\+Axis()"{} //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- \#macro Axis\+XYZ( Axis\+Len\+X, Axis\+Len\+Y, Axis\+Len\+Z, Tex\+\_\+\+Dark, Tex\+\_\+\+Light) \#end// of macro "{}\+Axis\+XYZ( ... )"{} //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---
+
+\#declare Texture\+\_\+\+A\+\_\+\+Dark = texture \{ pigment\{ color rgb$<$1,0.\+45,0$>$\} finish \{ phong 1\} \} \#declare Texture\+\_\+\+A\+\_\+\+Light = texture \{ pigment\{ color rgb$<$1,1,1$>$\} finish \{ phong 1\} \}
+
+// ground -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---\texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} settings of squared plane dimensions \#declare Raster\+Scale = 1.\+0; \#declare Raster\+Half\+Line = 0.\+035; ~\newline
+ \#declare Raster\+Half\+LineZ = 0.\+035; //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- \#macro Raster(\+RScale, HLine) pigment\{ gradient x scale RScale color\+\_\+map\{\mbox{[}0.\+000 color rgbt$<$1,1,1,0$>$\texorpdfstring{$\ast$}{*}0.6\mbox{]} \mbox{[}0+HLine color rgbt$<$1,1,1,0$>$\texorpdfstring{$\ast$}{*}0.6\mbox{]} \mbox{[}0+HLine color rgbt$<$1,1,1,1$>$\mbox{]} \mbox{[}1-\/HLine color rgbt$<$1,1,1,1$>$\mbox{]} \mbox{[}1-\/HLine color rgbt$<$1,1,1,0$>$\texorpdfstring{$\ast$}{*}0.6\mbox{]} \mbox{[}1.\+000 color rgbt$<$1,1,1,0$>$\texorpdfstring{$\ast$}{*}0.6\mbox{]}\} \} \#end// of Raster(\+RScale, HLine)-\/macro ~\newline
+ //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---
+
+plane \{ \texorpdfstring{$<$}{<}0,1,0\texorpdfstring{$>$}{>}, 0 // plane with layered textures texture \{ pigment\{color White\texorpdfstring{$\ast$}{*}1.1\} finish \{ambient 0.\+45 diffuse 0.\+85\}\} texture \{ Raster(\+Raster\+Scale,\+Raster\+Half\+Line ) rotate$<$0,0,0$>$ \} texture \{ Raster(\+Raster\+Scale,\+Raster\+Half\+Line\+Z) rotate$<$0,90,0$>$\} rotate$<$0,0,0$>$ \} //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- end of squared plane XZ
+
+//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- objects in scene -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---
+
+difference \{
+
+union \{
+
+difference \{ ~\newline
+ cylinder \{ \texorpdfstring{$<$}{<}0,0,0\texorpdfstring{$>$}{>},\texorpdfstring{$<$}{<}0,13,0\texorpdfstring{$>$}{>}, 44/2 \begin{DoxyVerb}       texture { pigment { color Green }
+               //normal  { bumps 0.5 scale <0.005,0.25,0.005>}
+                 finish  { phong 0.5 reflection{ 0.00 metallic 0.00} } 
+               } // end of texture
+
+       scale <1,1,1> rotate<0,0,0> translate<0,0,0>
+     } // end of cylinder -------------------------------------          
+\end{DoxyVerb}
+ \}
+
+cylinder \{ \texorpdfstring{$<$}{<}0,0,0\texorpdfstring{$>$}{>},\texorpdfstring{$<$}{<}0,10,0\texorpdfstring{$>$}{>}, 12/2 \begin{DoxyVerb}       texture { pigment { color Blue }
+               //normal  { bumps 0.5 scale <0.005,0.25,0.005>}
+                 finish  { phong 0.5 reflection{ 0.00 metallic 0.00} } 
+               } // end of texture
+
+       scale <1,1,1> rotate<0,0,0> translate<0,13,0>
+     } // end of cylinder -------------------------------------
+\end{DoxyVerb}
+
+
+\} //end union ~\newline
+
+
+cylinder \{ \texorpdfstring{$<$}{<}0,0,0\texorpdfstring{$>$}{>},\texorpdfstring{$<$}{<}0,24,0\texorpdfstring{$>$}{>}, 6/2 \begin{DoxyVerb}       texture { pigment { color Pink }
+               //normal  { bumps 0.5 scale <0.005,0.25,0.005>}
+                 finish  { phong 0.5 reflection{ 0.00 metallic 0.00} } 
+               } // end of texture
+
+       scale <1,1,1> rotate<0,0,0> translate<0,0,0>
+     } // end of cylinder -------------------------------------             
+\end{DoxyVerb}
+
+
+cylinder \{ \texorpdfstring{$<$}{<}-\/1,0,0\texorpdfstring{$>$}{>},\texorpdfstring{$<$}{<}7,0,0\texorpdfstring{$>$}{>}, 3/2 texture \{ pigment \{ color rgb$<$1,1,1$>$\} //normal \{ bumps 0.\+5 scale \texorpdfstring{$<$}{<}0.\+25, 0.\+005,0.\+005\texorpdfstring{$>$}{>}\} ~\newline
+ finish \{ phong 0.\+5 reflection\{ 0.\+00 metallic 0.\+00\} \} \} // end of texture scale \texorpdfstring{$<$}{<}1,1,1\texorpdfstring{$>$}{>} rotate$<$0,0,0$>$ translate$<$0,17,0$>$ \} // end of cylinder -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---
+
+difference \{
+
+cone\{ \texorpdfstring{$<$}{<}0,0,0\texorpdfstring{$>$}{>},33/2,\texorpdfstring{$<$}{<}0,2.\+5,0\texorpdfstring{$>$}{>},38/2 \begin{DoxyVerb}  texture{ pigment{ color Orange}
+           // pigment{ color rgb<1.00,0.60,0.00>}
+           finish { phong 0.5 reflection{ 0.00 metallic 0.00} } 
+         } // end of texture
+  scale <1,1,1> rotate<0,0,0> translate<0,10.8,0> 
+} // end of cone -----------------------------------            
+
+cone{ <0,2.5,0>,11.5/2,<0,0,0>,17/2 
+
+  texture{ pigment{ color Orange}
+           // pigment{ color rgb<1.00,0.60,0.00>}
+           finish { phong 0.5 reflection{ 0.00 metallic 0.00} } 
+         } // end of texture
+  scale <1,1,1> rotate<0,0,0> translate<0,10.8,0> 
+} // end of cone -----------------------------------
+\end{DoxyVerb}
+
+
+\} //end difference ~\newline
+
+
+difference \{
+
+cone\{ \texorpdfstring{$<$}{<}0,0,0\texorpdfstring{$>$}{>},33/2,\texorpdfstring{$<$}{<}0,2.\+5,0\texorpdfstring{$>$}{>},38/2 \begin{DoxyVerb}  texture{ pigment{ color Orange}
+           // pigment{ color rgb<1.00,0.60,0.00>}
+           finish { phong 0.5 reflection{ 0.00 metallic 0.00} } 
+         } // end of texture
+  scale <1,1,1> rotate<180,0,0> translate<0,2.4,0> 
+} // end of cone -----------------------------------            
+
+cone{ <0,2.5,0>,11.5/2,<0,0,0>,17/2 
+
+  texture{ pigment{ color Orange}
+           // pigment{ color rgb<1.00,0.60,0.00>}
+           finish { phong 0.5 reflection{ 0.00 metallic 0.00} } 
+         } // end of texture
+  scale <1,1,1> rotate<180,0,0> translate<0,2.5,0> 
+} // end of cone -----------------------------------
+\end{DoxyVerb}
+
+
+\} //end difference ~\newline
+
+
+box \{ \texorpdfstring{$<$}{<}0,0,0\texorpdfstring{$>$}{>},\texorpdfstring{$<$}{<} 50, 50, 50\texorpdfstring{$>$}{>} ~\newline
+ \begin{DoxyVerb}  texture { pigment{ color rgb<1.00, 1.00, 1.00>*1.1}  
+            finish { phong 1 reflection{ 0.00 metallic 0.00} } 
+          } // end of texture
+
+  scale <1,1,1> rotate<0,90,0> translate<0,0,0> 
+} // end of box --------------------------------------
+\end{DoxyVerb}
+
+
+\#declare Ball = cylinder \{ \texorpdfstring{$<$}{<}0,0,0\texorpdfstring{$>$}{>},\texorpdfstring{$<$}{<}0,40,0\texorpdfstring{$>$}{>}, 7/2 \begin{DoxyVerb}      texture { pigment { color Red }
+              //normal  { bumps 0.5 scale <0.005,0.25,0.005>}
+                finish  { phong 0.5 reflection{ 0.00 metallic 0.00} } 
+              } // end of texture
+
+      scale <1,1,1> rotate<0,0,0> translate<0,0,12.5>
+\end{DoxyVerb}
+ \} //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/---
+
+union\{ //-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- \#local Nr = 0; // start \#local End\+Nr = 8; // end \#while (Nr\texorpdfstring{$<$}{<} End\+Nr) object\{ Ball translate$<$1,0.\+25,0$>$ rotate\texorpdfstring{$<$}{<}0,Nr \texorpdfstring{$\ast$}{*} 360/\+End\+Nr,0\texorpdfstring{$>$}{>}\}
+
+\#local Nr = Nr + 1; // next Nr \#end // -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- end of loop
+
+rotate$<$0,0,0$>$ translate$<$0,0,0$>$ \} // end of union -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- ~\newline
+
+
+// CSG difference, subtract intersections of shapes 2...N from Shape1 difference \{ ~\newline
+ cone\{ \texorpdfstring{$<$}{<}0,0,0\texorpdfstring{$>$}{>},45/2,\texorpdfstring{$<$}{<}0,1,0\texorpdfstring{$>$}{>},47/2 \begin{DoxyVerb}  texture{ pigment{ color rgbf<1.00,1,1,0.75>}
+           // pigment{ color rgb<1.00,0.60,0.00>}
+           finish { phong 0.5 reflection{ 0.00 metallic 0.00} } 
+         } // end of texture
+  scale <1,1,1> rotate<0,0,0> translate<0,0.0001,0> 
+} // end of cone -----------------------------------
+\end{DoxyVerb}
+ cone\{ \texorpdfstring{$<$}{<}0,0,0\texorpdfstring{$>$}{>},43/2,\texorpdfstring{$<$}{<}0,1,0\texorpdfstring{$>$}{>},44/2 \begin{DoxyVerb}  texture{ pigment{ color rgbf<1.00,1,1,0.75>}
+           // pigment{ color rgb<1.00,0.60,0.00>}
+           finish { phong 0.5 reflection{ 0.00 metallic 0.00} } 
+         } // end of texture
+  scale <1,1,1> rotate<0,0,0> translate<0,0.0001,0> 
+} // end of cone -----------------------------------
+\end{DoxyVerb}
+
+
+\} //end diference
+
+difference \{
+
+cone\{ \texorpdfstring{$<$}{<}0,0,0\texorpdfstring{$>$}{>},45/2,\texorpdfstring{$<$}{<}0,1,0\texorpdfstring{$>$}{>},47/2 \begin{DoxyVerb}  texture{ pigment{ color Pink}
+           // pigment{ color rgb<1.00,0.60,0.00>}
+           finish { phong 0.5 reflection{ 0.00 metallic 0.00} } 
+         } // end of texture
+  scale <1,1,1> rotate<180,0,0> translate<0,13.1,0> 
+} // end of cone -----------------------------------
+\end{DoxyVerb}
+
+
+cone\{ \texorpdfstring{$<$}{<}0,0,0\texorpdfstring{$>$}{>},43/2,\texorpdfstring{$<$}{<}0,1,0\texorpdfstring{$>$}{>},44/2 \begin{DoxyVerb}  texture{ pigment{ color Yellow}
+           // pigment{ color rgb<1.00,0.60,0.00>}
+           finish { phong 0.5 reflection{ 0.00 metallic 0.00} } 
+         } // end of texture
+  scale <1,1,1> rotate<180,0,0> translate<0,13.1,0> 
+\end{DoxyVerb}
+
+
+\} //end diference
+
+\} //end difference ~\newline
+
+
+\} // end of cone -\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- 

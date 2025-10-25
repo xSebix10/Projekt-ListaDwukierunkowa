@@ -1,0 +1,88 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}redme }{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Hierarchical Index}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Class Hierarchy}{5}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Class Index}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Class List}{7}{section.3.1}%
+\contentsline {chapter}{\numberline {4}File Index}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}File List}{9}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Class Documentation}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Doubly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Linked\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}List$<$ T $>$ Class Template Reference}{11}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Constructor \& Destructor Documentation}{12}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}DoublyLinkedList()}{12}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.2}$\sim $DoublyLinkedList()}{12}{subsubsection.5.1.1.2}%
+\contentsline {subsection}{\numberline {5.1.2}Member Function Documentation}{12}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.1}begin\_iterator()}{12}{subsubsection.5.1.2.1}%
+\contentsline {subsubsection}{\numberline {5.1.2.2}clear()}{12}{subsubsection.5.1.2.2}%
+\contentsline {subsubsection}{\numberline {5.1.2.3}end\_iterator()}{12}{subsubsection.5.1.2.3}%
+\contentsline {subsubsection}{\numberline {5.1.2.4}insert\_at()}{12}{subsubsection.5.1.2.4}%
+\contentsline {subsubsection}{\numberline {5.1.2.5}pop\_back()}{13}{subsubsection.5.1.2.5}%
+\contentsline {subsubsection}{\numberline {5.1.2.6}pop\_front()}{13}{subsubsection.5.1.2.6}%
+\contentsline {subsubsection}{\numberline {5.1.2.7}print\_backward()}{13}{subsubsection.5.1.2.7}%
+\contentsline {subsubsection}{\numberline {5.1.2.8}print\_forward()}{13}{subsubsection.5.1.2.8}%
+\contentsline {subsubsection}{\numberline {5.1.2.9}push\_back()}{13}{subsubsection.5.1.2.9}%
+\contentsline {subsubsection}{\numberline {5.1.2.10}push\_front()}{14}{subsubsection.5.1.2.10}%
+\contentsline {subsubsection}{\numberline {5.1.2.11}remove\_at()}{14}{subsubsection.5.1.2.11}%
+\contentsline {subsubsection}{\numberline {5.1.2.12}size()}{14}{subsubsection.5.1.2.12}%
+\contentsline {section}{\numberline {5.2}IList$<$ T $>$ Class Template Reference}{14}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Constructor \& Destructor Documentation}{15}{subsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.1.1}$\sim $IList()}{15}{subsubsection.5.2.1.1}%
+\contentsline {subsection}{\numberline {5.2.2}Member Function Documentation}{15}{subsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.1}clear()}{15}{subsubsection.5.2.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2.2}insert\_at()}{15}{subsubsection.5.2.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2.3}pop\_back()}{15}{subsubsection.5.2.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.2.4}pop\_front()}{15}{subsubsection.5.2.2.4}%
+\contentsline {subsubsection}{\numberline {5.2.2.5}print\_backward()}{16}{subsubsection.5.2.2.5}%
+\contentsline {subsubsection}{\numberline {5.2.2.6}print\_forward()}{16}{subsubsection.5.2.2.6}%
+\contentsline {subsubsection}{\numberline {5.2.2.7}push\_back()}{16}{subsubsection.5.2.2.7}%
+\contentsline {subsubsection}{\numberline {5.2.2.8}push\_front()}{16}{subsubsection.5.2.2.8}%
+\contentsline {subsubsection}{\numberline {5.2.2.9}remove\_at()}{16}{subsubsection.5.2.2.9}%
+\contentsline {section}{\numberline {5.3}IList\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iterator$<$ T $>$ Class Template Reference}{17}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Constructor \& Destructor Documentation}{17}{subsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1.1}$\sim $IListIterator()}{17}{subsubsection.5.3.1.1}%
+\contentsline {subsection}{\numberline {5.3.2}Member Function Documentation}{17}{subsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.1}has\_next()}{17}{subsubsection.5.3.2.1}%
+\contentsline {subsubsection}{\numberline {5.3.2.2}has\_prev()}{17}{subsubsection.5.3.2.2}%
+\contentsline {subsubsection}{\numberline {5.3.2.3}next()}{18}{subsubsection.5.3.2.3}%
+\contentsline {subsubsection}{\numberline {5.3.2.4}prev()}{18}{subsubsection.5.3.2.4}%
+\contentsline {subsubsection}{\numberline {5.3.2.5}value()}{18}{subsubsection.5.3.2.5}%
+\contentsline {section}{\numberline {5.4}List\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Factory Class Reference}{18}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Member Function Documentation}{18}{subsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.1.1}create()}{18}{subsubsection.5.4.1.1}%
+\contentsline {section}{\numberline {5.5}List\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iterator$<$ T $>$ Class Template Reference}{19}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Constructor \& Destructor Documentation}{19}{subsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.1.1}ListIterator()}{19}{subsubsection.5.5.1.1}%
+\contentsline {subsection}{\numberline {5.5.2}Member Function Documentation}{20}{subsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.2.1}get\_node()}{20}{subsubsection.5.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.5.2.2}has\_next()}{20}{subsubsection.5.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.5.2.3}has\_prev()}{20}{subsubsection.5.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.5.2.4}next()}{20}{subsubsection.5.5.2.4}%
+\contentsline {subsubsection}{\numberline {5.5.2.5}prev()}{20}{subsubsection.5.5.2.5}%
+\contentsline {subsubsection}{\numberline {5.5.2.6}value()}{21}{subsubsection.5.5.2.6}%
+\contentsline {section}{\numberline {5.6}Node$<$ T $>$ Struct Template Reference}{21}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Constructor \& Destructor Documentation}{21}{subsection.5.6.1}%
+\contentsline {subsubsection}{\numberline {5.6.1.1}Node()}{21}{subsubsection.5.6.1.1}%
+\contentsline {chapter}{\numberline {6}File Documentation}{23}{chapter.6}%
+\contentsline {section}{\numberline {6.1}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sebastian/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lista\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dwukierunkowa/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Doubly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Linked\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}List.h File Reference}{23}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{23}{subsection.6.1.1}%
+\contentsline {section}{\numberline {6.2}Doubly\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Linked\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}List.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{23}{section.6.2}%
+\contentsline {section}{\numberline {6.3}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sebastian/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lista\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dwukierunkowa/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IList.h File Reference}{24}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{24}{subsection.6.3.1}%
+\contentsline {section}{\numberline {6.4}IList.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{25}{section.6.4}%
+\contentsline {section}{\numberline {6.5}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sebastian/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lista\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dwukierunkowa/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IList\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iterator.h File Reference}{25}{section.6.5}%
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{25}{subsection.6.5.1}%
+\contentsline {section}{\numberline {6.6}IList\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iterator.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{25}{section.6.6}%
+\contentsline {section}{\numberline {6.7}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sebastian/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lista\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dwukierunkowa/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}List\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Factory.h File Reference}{26}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Detailed Description}{26}{subsection.6.7.1}%
+\contentsline {section}{\numberline {6.8}List\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Factory.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{26}{section.6.8}%
+\contentsline {section}{\numberline {6.9}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sebastian/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lista\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dwukierunkowa/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}List\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iterator.h File Reference}{26}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Detailed Description}{27}{subsection.6.9.1}%
+\contentsline {section}{\numberline {6.10}List\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Iterator.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{27}{section.6.10}%
+\contentsline {section}{\numberline {6.11}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sebastian/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lista\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dwukierunkowa/main.cpp File Reference}{27}{section.6.11}%
+\contentsline {subsection}{\numberline {6.11.1}Detailed Description}{28}{subsection.6.11.1}%
+\contentsline {subsection}{\numberline {6.11.2}Function Documentation}{28}{subsection.6.11.2}%
+\contentsline {subsubsection}{\numberline {6.11.2.1}main()}{28}{subsubsection.6.11.2.1}%
+\contentsline {section}{\numberline {6.12}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Users/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Sebastian/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Desktop/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Lista\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Dwukierunkowa/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Node.h File Reference}{28}{section.6.12}%
+\contentsline {subsection}{\numberline {6.12.1}Detailed Description}{29}{subsection.6.12.1}%
+\contentsline {section}{\numberline {6.13}Node.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{29}{section.6.13}%
+\contentsline {chapter}{Index}{31}{section*.21}%

@@ -1,0 +1,123 @@
+\doxysection{List\+Iterator\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{class_list_iterator}{}\label{class_list_iterator}\index{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}}
+Inheritance diagram for List\+Iterator\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_list_iterator}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_list_iterator_a539fa836244fb38dcd1d9822d7e873e5}{List\+Iterator}} (\mbox{\hyperlink{struct_node}{Node}}$<$ T $>$ \texorpdfstring{$\ast$}{*}start)
+\begin{DoxyCompactList}\small\item\em Konstruktor iteratora. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_list_iterator_a58963dad64d804cda256ba1bf5cdf1b5}{has\+\_\+next}} () const override
+\item 
+bool \mbox{\hyperlink{class_list_iterator_ac61f527f5ebc01b2fb1ada1881ca075f}{has\+\_\+prev}} () const override
+\item 
+void \mbox{\hyperlink{class_list_iterator_a9875f3dcba47a7169e5690fe28a6b02f}{next}} () override
+\item 
+void \mbox{\hyperlink{class_list_iterator_ae483c28e64983cd9646e2cf1f7e55a93}{prev}} () override
+\item 
+T \& \mbox{\hyperlink{class_list_iterator_ae4a43ab130966796b171d57352034a17}{value}} () override
+\item 
+\mbox{\hyperlink{struct_node}{Node}}$<$ T $>$ \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_list_iterator_aff975b437e76c9d29c6123a194018328}{get\+\_\+node}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_i_list_iterator}{IList\+Iterator$<$ T $>$}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{class_i_list_iterator_a32b516445eb22a746ccf69629ad4432c}{\texorpdfstring{$\sim$}{\string~}\+IList\+Iterator}} ()=default
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{class_list_iterator_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_list_iterator_a539fa836244fb38dcd1d9822d7e873e5}\index{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}!ListIterator@{ListIterator}}
+\index{ListIterator@{ListIterator}!ListIterator$<$ T $>$@{ListIterator$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{ListIterator()}{ListIterator()}}
+{\footnotesize\ttfamily \label{class_list_iterator_a539fa836244fb38dcd1d9822d7e873e5} 
+template$<$typename T$>$ \\
+\mbox{\hyperlink{class_list_iterator}{List\+Iterator}}$<$ T $>$\+::\+List\+Iterator (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_node}{Node}}$<$ T $>$ \texorpdfstring{$\ast$}{*}}]{start}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [explicit]}}
+
+
+
+Konstruktor iteratora. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em start} & Wskaznik na element, od ktorego zaczyna iteracje \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_list_iterator_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_list_iterator_aff975b437e76c9d29c6123a194018328}\index{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}!get\_node@{get\_node}}
+\index{get\_node@{get\_node}!ListIterator$<$ T $>$@{ListIterator$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{get\_node()}{get\_node()}}
+{\footnotesize\ttfamily \label{class_list_iterator_aff975b437e76c9d29c6123a194018328} 
+template$<$typename T$>$ \\
+\mbox{\hyperlink{struct_node}{Node}}$<$ T $>$ \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_list_iterator}{List\+Iterator}}$<$ T $>$\+::get\+\_\+node (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Zwraca surowy wskaznik na aktualny wezel (uzywane przez liste) \Hypertarget{class_list_iterator_a58963dad64d804cda256ba1bf5cdf1b5}\index{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}!has\_next@{has\_next}}
+\index{has\_next@{has\_next}!ListIterator$<$ T $>$@{ListIterator$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{has\_next()}{has\_next()}}
+{\footnotesize\ttfamily \label{class_list_iterator_a58963dad64d804cda256ba1bf5cdf1b5} 
+template$<$typename T$>$ \\
+bool \mbox{\hyperlink{class_list_iterator}{List\+Iterator}}$<$ T $>$\+::has\+\_\+next (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Sprawdza, czy istnieje nastepny element 
+
+Implements \mbox{\hyperlink{class_i_list_iterator_ab27734d5ff9f03e09a724d6020920a4d}{IList\+Iterator$<$ T $>$}}.
+
+\Hypertarget{class_list_iterator_ac61f527f5ebc01b2fb1ada1881ca075f}\index{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}!has\_prev@{has\_prev}}
+\index{has\_prev@{has\_prev}!ListIterator$<$ T $>$@{ListIterator$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{has\_prev()}{has\_prev()}}
+{\footnotesize\ttfamily \label{class_list_iterator_ac61f527f5ebc01b2fb1ada1881ca075f} 
+template$<$typename T$>$ \\
+bool \mbox{\hyperlink{class_list_iterator}{List\+Iterator}}$<$ T $>$\+::has\+\_\+prev (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Sprawdza, czy istnieje poprzedni element 
+
+Implements \mbox{\hyperlink{class_i_list_iterator_a2c298264f7fcd6cc5609b8cc095f75f2}{IList\+Iterator$<$ T $>$}}.
+
+\Hypertarget{class_list_iterator_a9875f3dcba47a7169e5690fe28a6b02f}\index{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}!next@{next}}
+\index{next@{next}!ListIterator$<$ T $>$@{ListIterator$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{next()}{next()}}
+{\footnotesize\ttfamily \label{class_list_iterator_a9875f3dcba47a7169e5690fe28a6b02f} 
+template$<$typename T$>$ \\
+void \mbox{\hyperlink{class_list_iterator}{List\+Iterator}}$<$ T $>$\+::next (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Przesuwa iterator na nastepny element 
+
+Implements \mbox{\hyperlink{class_i_list_iterator_a78e3fb318949ae03051bb7898d11afd6}{IList\+Iterator$<$ T $>$}}.
+
+\Hypertarget{class_list_iterator_ae483c28e64983cd9646e2cf1f7e55a93}\index{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}!prev@{prev}}
+\index{prev@{prev}!ListIterator$<$ T $>$@{ListIterator$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{prev()}{prev()}}
+{\footnotesize\ttfamily \label{class_list_iterator_ae483c28e64983cd9646e2cf1f7e55a93} 
+template$<$typename T$>$ \\
+void \mbox{\hyperlink{class_list_iterator}{List\+Iterator}}$<$ T $>$\+::prev (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Przesuwa iterator na poprzedni element 
+
+Implements \mbox{\hyperlink{class_i_list_iterator_ae0ad667c09455813cf687badf89ba4b4}{IList\+Iterator$<$ T $>$}}.
+
+\Hypertarget{class_list_iterator_ae4a43ab130966796b171d57352034a17}\index{ListIterator$<$ T $>$@{ListIterator$<$ T $>$}!value@{value}}
+\index{value@{value}!ListIterator$<$ T $>$@{ListIterator$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{value()}{value()}}
+{\footnotesize\ttfamily \label{class_list_iterator_ae4a43ab130966796b171d57352034a17} 
+template$<$typename T$>$ \\
+T \& \mbox{\hyperlink{class_list_iterator}{List\+Iterator}}$<$ T $>$\+::value (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Zwraca wartosc aktualnego elementu 
+
+Implements \mbox{\hyperlink{class_i_list_iterator_a2ca83830ecfce672039c0b6cf38c680b}{IList\+Iterator$<$ T $>$}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Sebastian/\+Desktop/\+Lista\+Dwukierunkowa/\mbox{\hyperlink{_list_iterator_8h}{List\+Iterator.\+h}}\end{DoxyCompactItemize}
